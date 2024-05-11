@@ -10,8 +10,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.example.notesappcompose.ui.screen.AboutScreen
-import com.example.notesappcompose.ui.screen.AddEditScreenUI
-import com.example.notesappcompose.ui.screen.NotesScreen
+import org.d3if3009.listnote.ui.screen.AddEditScreenUI
+import org.d3if3009.listnote.ui.screen.NotesScreen
 
 @Composable
 fun AppNavHost() {
