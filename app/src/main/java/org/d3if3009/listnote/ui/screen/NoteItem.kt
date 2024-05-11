@@ -27,11 +27,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.d3if3009.listnote.R
 import org.d3if3009.listnote.model.Note
 
 @Composable
@@ -54,8 +52,8 @@ fun NoteItemUI(
     if (showDeleteDialog) {
         AlertDialog(
             onDismissRequest = { dismissDeleteConfirmationDialog() },
-            title = { Text(text = stringResource(id = R.string.hapus)) },
-            text = { Text(text = stringResource(id = R.string.deskripsi_hapus)) },
+            title = { Text(text = "Hapus Note") },
+            text = { Text(text = "Apakah Anda yakin ingin menghapus catatan ini?") },
             confirmButton = {
                 Button(
                     onClick = {
@@ -63,7 +61,7 @@ fun NoteItemUI(
                         dismissDeleteConfirmationDialog()
                     }
                 ) {
-                    Text(text = stringResource(id = R.string.hapus))
+                    Text(text = "Hapus Note")
                 }
             },
             dismissButton = {
@@ -72,7 +70,7 @@ fun NoteItemUI(
                         dismissDeleteConfirmationDialog()
                     }
                 ) {
-                    Text(text = stringResource(id = R.string.batal))
+                    Text(text = "Batal")
                 }
             }
         )

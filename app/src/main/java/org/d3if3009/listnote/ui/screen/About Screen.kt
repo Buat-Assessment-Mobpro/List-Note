@@ -19,11 +19,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import org.d3if3009.listnote.R
 import org.d3if3009.listnote.presentation.notes.NotesViewModel
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
@@ -66,19 +64,19 @@ fun Content(
             }
 
             Text(
-                text = stringResource(id = R.string.tentang_aplikasi),
+                text = "Tentang Aplikasi",
                 style = MaterialTheme.typography.titleLarge,
                 modifier = Modifier.weight(1f)
             )
         }
 
         Text(
-            text = stringResource(id = R.string.deskripsi_aplikasi),
+            text = "Deskripsi Aplikasi",
             style = MaterialTheme.typography.titleLarge,
             modifier = Modifier.padding(horizontal = 16.dp)
         )
         Text(
-            text = stringResource(id = R.string.isi_deskripsi_aplikasi),
+            text = "Aplikasi List Note adalah sebuah aplikasi sederhana yang memungkinkan pengguna untuk membuat, mengedit, dan mengatur catatan mereka dengan mudah. Dengan antarmuka yang ramah pengguna dan fitur-fitur yang intuitif, aplikasi ini dirancang untuk membantu pengguna dalam mengelola dan menyusun ide, tugas, dan informasi penting lainnya dengan cepat dan efisien.",
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier.padding(horizontal = 16.dp)
         )
@@ -86,12 +84,12 @@ fun Content(
         Spacer(modifier = Modifier.height(16.dp))
 
         Text(
-            text = stringResource(id = R.string.about_aplikasi),
+            text = "About Aplikasi",
             style = MaterialTheme.typography.titleLarge,
             modifier = Modifier.padding(horizontal = 16.dp)
         )
         Text(
-            text = stringResource(id = R.string.isi_deskripsi_about),
+            text = "List Note adalah hasil dari kerja Muhammad Raihan Fahrifi. Kami selalu berusaha untuk meningkatkan pengalaman pengguna dan menerima umpan balik dari pengguna kami untuk terus mengembangkan aplikasi ini menjadi lebih baik.",
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier.padding(horizontal = 16.dp)
         )
