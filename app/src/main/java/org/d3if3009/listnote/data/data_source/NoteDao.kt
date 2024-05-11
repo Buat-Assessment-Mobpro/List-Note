@@ -1,4 +1,4 @@
-package com.example.notesappcompose.feature_note.data.data_source
+package org.d3if3009.listnote.data.data_source
 
 import androidx.room.Dao
 import androidx.room.Delete

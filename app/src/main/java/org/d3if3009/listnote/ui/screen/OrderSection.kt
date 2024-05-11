@@ -10,8 +10,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.notesappcompose.feature_note.domain.utils.NoteOrder
-import com.example.notesappcompose.feature_note.domain.utils.OrderType
+import org.d3if3009.listnote.utils.NoteOrder
+import org.d3if3009.listnote.utils.OrderType
 
 @Composable
 fun OrderSection(

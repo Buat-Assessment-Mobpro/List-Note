@@ -2,14 +2,14 @@ package org.d3if3009.listnote.di
 
 import android.app.Application
 import androidx.room.Room
-import com.example.notesappcompose.feature_note.data.data_source.NoteDB
+import org.d3if3009.listnote.data.data_source.NoteDB
 import com.example.notesappcompose.feature_note.data.repository.NoteRepositoryImpl
 import com.example.notesappcompose.feature_note.domain.repository.NoteRepository
-import com.example.notesappcompose.feature_note.domain.usecases.AddNote
-import com.example.notesappcompose.feature_note.domain.usecases.DeleteNote
-import com.example.notesappcompose.feature_note.domain.usecases.GetNote
-import com.example.notesappcompose.feature_note.domain.usecases.GetNotes
-import com.example.notesappcompose.feature_note.domain.usecases.NoteUseCases
+import org.d3if3009.listnote.domain.usecases.AddNote
+import org.d3if3009.listnote.domain.usecases.DeleteNote
+import org.d3if3009.listnote.domain.usecases.GetNote
+import org.d3if3009.listnote.domain.usecases.GetNotes
+import org.d3if3009.listnote.domain.usecases.NoteUseCases
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
