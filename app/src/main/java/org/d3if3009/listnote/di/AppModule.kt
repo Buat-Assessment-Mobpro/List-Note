@@ -3,8 +3,6 @@ package org.d3if3009.listnote.di
 import android.app.Application
 import androidx.room.Room
 import org.d3if3009.listnote.data.data_source.NoteDB
-import com.example.notesappcompose.feature_note.data.repository.NoteRepositoryImpl
-import com.example.notesappcompose.feature_note.domain.repository.NoteRepository
 import org.d3if3009.listnote.domain.usecases.AddNote
 import org.d3if3009.listnote.domain.usecases.DeleteNote
 import org.d3if3009.listnote.domain.usecases.GetNote
@@ -14,6 +12,8 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
+import org.d3if3009.listnote.data.repository.NoteRepositoryImpl
+import org.d3if3009.listnote.domain.repository.NoteRepository
 import javax.inject.Singleton
 
 @Module

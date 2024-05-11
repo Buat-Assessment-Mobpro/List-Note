@@ -4,19 +4,18 @@ import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.notesappcompose.feature_note.data.data_source.ViewType
-import com.example.notesappcompose.feature_note.domain.model.Note
-import com.example.notesappcompose.feature_note.domain.usecases.NoteUseCases
-import com.example.notesappcompose.feature_note.domain.utils.NoteOrder
-import com.example.notesappcompose.feature_note.domain.utils.OrderType
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
-import org.d3if3009.listnote.presentation.notes.NotesEvent
-import org.d3if3009.listnote.presentation.notes.NotesState
+import org.d3if3009.listnote.data.data_source.ViewType
+import org.d3if3009.listnote.domain.usecases.NoteUseCases
+import org.d3if3009.listnote.model.Note
+import org.d3if3009.listnote.utils.NoteOrder
+import org.d3if3009.listnote.utils.OrderType
 import javax.inject.Inject
+
 
 @HiltViewModel
 class NotesViewModel @Inject constructor(

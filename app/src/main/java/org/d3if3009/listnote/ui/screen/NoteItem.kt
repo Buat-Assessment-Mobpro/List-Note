@@ -32,6 +32,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import org.d3if3009.listnote.R
+import org.d3if3009.listnote.model.Note
 
 @Composable
 fun NoteItemUI(

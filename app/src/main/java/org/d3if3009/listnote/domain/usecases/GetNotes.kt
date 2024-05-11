@@ -1,11 +1,12 @@
 package org.d3if3009.listnote.domain.usecases
 
-import com.example.notesappcompose.feature_note.domain.model.Note
-import com.example.notesappcompose.feature_note.domain.repository.NoteRepository
-import org.d3if3009.listnote.utils.NoteOrder
-import org.d3if3009.listnote.utils.OrderType
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
+import org.d3if3009.listnote.domain.repository.NoteRepository
+import org.d3if3009.listnote.model.Note
+import org.d3if3009.listnote.utils.NoteOrder
+import org.d3if3009.listnote.utils.OrderType
+
 
 class GetNotes(
     private val repository: NoteRepository

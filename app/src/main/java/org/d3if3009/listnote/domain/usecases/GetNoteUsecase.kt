@@ -1,7 +1,7 @@
 package org.d3if3009.listnote.domain.usecases
 
-import com.example.notesappcompose.feature_note.domain.model.Note
-import com.example.notesappcompose.feature_note.domain.repository.NoteRepository
+import org.d3if3009.listnote.domain.repository.NoteRepository
+import org.d3if3009.listnote.model.Note
 
 class GetNote(
     private val repository: NoteRepository

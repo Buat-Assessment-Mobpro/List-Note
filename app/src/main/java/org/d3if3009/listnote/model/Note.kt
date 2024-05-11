@@ -2,11 +2,12 @@ package org.d3if3009.listnote.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.example.notesappcompose.ui.theme.BabyBlue
-import com.example.notesappcompose.ui.theme.LightGreen
-import com.example.notesappcompose.ui.theme.RedOrange
-import com.example.notesappcompose.ui.theme.RedPink
-import com.example.notesappcompose.ui.theme.Violet
+import org.d3if3009.listnote.ui.theme.BabyBlue
+import org.d3if3009.listnote.ui.theme.LightGreen
+import org.d3if3009.listnote.ui.theme.RedOrange
+import org.d3if3009.listnote.ui.theme.RedPink
+import org.d3if3009.listnote.ui.theme.Violet
+
 
 @Entity
 data class Note(

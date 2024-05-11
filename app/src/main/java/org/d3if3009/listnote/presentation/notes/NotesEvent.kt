@@ -1,7 +1,7 @@
 package org.d3if3009.listnote.presentation.notes
 
-import com.example.notesappcompose.feature_note.domain.model.Note
-import com.example.notesappcompose.feature_note.domain.utils.NoteOrder
+import org.d3if3009.listnote.model.Note
+import org.d3if3009.listnote.utils.NoteOrder
 
 sealed class NotesEvent {
     data class Order(val noteOrder: NoteOrder) : NotesEvent()

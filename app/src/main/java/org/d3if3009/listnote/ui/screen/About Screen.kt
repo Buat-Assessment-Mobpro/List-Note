@@ -23,8 +23,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.example.notesappcompose.R
-import com.example.notesappcompose.feature_note.presentation.notes.NotesViewModel
+import org.d3if3009.listnote.R
+import org.d3if3009.listnote.presentation.notes.NotesViewModel
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable

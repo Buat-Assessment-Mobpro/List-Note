@@ -1,7 +1,7 @@
 package org.d3if3009.listnote.domain.repository
 
-import com.example.notesappcompose.feature_note.domain.model.Note
 import kotlinx.coroutines.flow.Flow
+import org.d3if3009.listnote.model.Note
 
 interface NoteRepository {
 

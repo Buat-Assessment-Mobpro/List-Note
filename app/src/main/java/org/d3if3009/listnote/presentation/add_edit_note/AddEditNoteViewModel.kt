@@ -6,14 +6,15 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.notesappcompose.feature_note.domain.model.InvalidNoteException
-import com.example.notesappcompose.feature_note.domain.model.Note
-import com.example.notesappcompose.feature_note.domain.usecases.NoteUseCases
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.launch
+import org.d3if3009.listnote.domain.usecases.NoteUseCases
+import org.d3if3009.listnote.model.InvalidNoteException
+import org.d3if3009.listnote.model.Note
 import javax.inject.Inject
+
 
 @HiltViewModel
 class AddEditNoteViewModel @Inject constructor(

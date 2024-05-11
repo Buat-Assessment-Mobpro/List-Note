@@ -54,13 +54,13 @@ android {
 
 dependencies {
 
-    implementation("androidx.compose.material3:material3:1.1.2")
-    implementation("androidx.compose.material3:material3-window-size-class:1.1.2")
-    implementation("androidx.core:core-ktx:1.10.1")
-    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
-    implementation("androidx.activity:activity-compose:1.7.2")
-    implementation(platform("androidx.compose:compose-bom:2022.10.00"))
+    implementation("androidx.compose.material3:material3:1.2.1")
+    implementation("androidx.compose.material3:material3-window-size-class:1.2.1")
+    implementation("androidx.core:core-ktx:1.13.1")
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.9.20"))
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
+    implementation("androidx.activity:activity-compose:1.9.0")
+    implementation(platform("androidx.compose:compose-bom:2024.05.00"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")

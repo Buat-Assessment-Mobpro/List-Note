@@ -1,9 +1,9 @@
 package org.d3if3009.listnote.data.repository
 
 import org.d3if3009.listnote.data.data_source.NoteDao
-import com.example.notesappcompose.feature_note.domain.model.Note
-import com.example.notesappcompose.feature_note.domain.repository.NoteRepository
 import kotlinx.coroutines.flow.Flow
+import org.d3if3009.listnote.domain.repository.NoteRepository
+import org.d3if3009.listnote.model.Note
 
 class NoteRepositoryImpl(
     private val dao: NoteDao

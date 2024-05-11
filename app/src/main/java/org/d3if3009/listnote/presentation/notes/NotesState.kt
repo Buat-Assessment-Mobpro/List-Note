@@ -1,9 +1,10 @@
 package org.d3if3009.listnote.presentation.notes
 
-import com.example.notesappcompose.feature_note.data.data_source.ViewType
-import com.example.notesappcompose.feature_note.domain.model.Note
-import com.example.notesappcompose.feature_note.domain.utils.NoteOrder
-import com.example.notesappcompose.feature_note.domain.utils.OrderType
+import org.d3if3009.listnote.data.data_source.ViewType
+import org.d3if3009.listnote.model.Note
+import org.d3if3009.listnote.utils.NoteOrder
+import org.d3if3009.listnote.utils.OrderType
+
 
 data class NotesState(
     val notes: List<Note> = emptyList(),
